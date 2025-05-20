@@ -1,4 +1,4 @@
-package br.edu.ifrs.osorio.tads.model;
+package br.edu.ifrs.osorio.tads.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
