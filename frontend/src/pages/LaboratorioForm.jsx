@@ -44,7 +44,7 @@ const LaboratorioForm = () => {
 
     if (!formData.nome.trim()) {
       newErrors.nome = "Nome é obrigatório"
-    } else if (formData.nome.length < 3 || formData.nome.length > 20) {
+    } else if (formData.nome.length < 3 || formData.nome.length > 40) {
       newErrors.nome = "Nome deve ter no minimo 3 caracteres e no maximo 20 caracteres"
     }
 

@@ -1,7 +1,7 @@
 package br.edu.ifrs.osorio.tads.service;
 
 import br.edu.ifrs.osorio.tads.dto.LaboratorioDTO;
-import br.edu.ifrs.osorio.tads.model.Laboratorio;
+import br.edu.ifrs.osorio.tads.entity.Laboratorio;
 import br.edu.ifrs.osorio.tads.repository.LaboratorioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -10,7 +10,7 @@ public class LaboratorioDTO {
     private Long id;
 
     @NotBlank(message = "O nome não pode ser vazio")
-    @Size(min = 3, max = 20, message = "O nome deve ter entre 3 e 20 caracteres")
+    @Size(min = 3, max = 40, message = "O nome deve ter entre 3 e 20 caracteres")
     private String nome;
 
     @NotBlank(message = "O bloco é um campo obrigatório")
